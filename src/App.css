@@ -1,0 +1,225 @@
+body{
+
+  font-family: "Montserrat", sans-serif
+}
+
+.header{
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  
+  
+}
+
+.subHeader{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 80%;
+
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+  span{
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+  };
+  span:hover{
+    color: blueviolet;
+  }
+}
+
+.logo {
+
+  p{
+  font-weight: 900;
+  font-size: 21px;
+  }
+
+}
+
+.iconInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  gap: 1px;
+  padding-right: 2px;
+  border-radius: 2px solid black;
+
+  input{
+    height: 15px;
+    border-radius: 5px;
+    width: 200px;
+    
+  }
+  
+}
+
+.holder{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .burgerMenu{
+  display: none;
+ }
+
+ @media screen and (max-width: 600px) {
+  .navBar{
+    display: none;
+  }
+  .holder{
+    display: none;
+  }
+  .burgerMenu{
+    display: flex;
+  }
+
+ }
+
+.heroSection {
+  width:100%;
+  height: 500px;
+  background-color:whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.subHero {
+  width: 80%;
+  height: 100%;
+ display: flex;
+
+}
+
+.leftHero {
+width: 50%;
+flex-direction: column;
+display: flex;
+justify-content: center;
+}
+
+.rightHero {
+
+width: 50%;
+}
+
+.contentLeft {
+
+ 
+  span{
+    color: green;
+  }
+}
+
+.inputCon{
+  margin-top: 10px;
+ display: flex;
+ align-items: end;
+
+  input{
+    width: 350px;
+    height: 25px;
+    border: none;
+    padding-left: 10px;
+  }
+}
+
+.rightHero {
+ img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+ }
+}
+
+.smallCon {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(223, 228, 228);
+  border-radius: 50px 0 0 50px;
+  position:absolute;
+  top:400px;
+  left: 800px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.contentIcon {
+  height: 100px;  
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.subContentIcon {
+  width: 80%;
+  height:100% ;
+  display: flex;
+  justify-content: space-around;
+}
+
+.showCon {
+  width: 300px;
+  height:100px;
+ 
+  display: flex;
+
+}
+
+.categories{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-right: 100px;
+  gap: 20px;
+  
+  
+
+}
+.frontEnd{
+background-color: whitesmoke;
+
+
+
+}
+
+@media only screen and (max-width:600px){
+  .heroSection{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+
+  }
+
+.subHero{
+  display: flex;
+  flex-direction: column;
+}
+.rightHero{
+  width: 100%;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.smallCon{
+  right: 500px;
+  top: 400px;
+  width: 200px;
+}
+  
+}
