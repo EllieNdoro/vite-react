@@ -7,6 +7,7 @@ import Blog from "./Pages/Blog/Blog";
 import Services from "./Pages/Services/Services";
 import Header from "./components/header/header";
 import Counter from "./Pages/Counter/Counter";
+import Contact from "./Pages/Contact/Contact";
 
 const App = () =>{
   return (
@@ -19,6 +20,7 @@ const App = () =>{
             <Route path="/Blog" element={<Blog/>}/>
             <Route path="/Services" element={<Services/>}/>
             <Route path="/Counter" element ={<Counter/>}/>
+            <Route path="/Contact" element ={<Contact/>}/>
 
          </Routes>
       </BrowserRouter>
